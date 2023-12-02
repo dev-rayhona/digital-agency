@@ -3,6 +3,10 @@
     flex-direction: row;
     font-family: sans-serif;
 }
+.first{
+    display: flex;
+    flex-direction: row;
+}
 .logo{
     width: 21px;
     height: 31px;
@@ -10,24 +14,33 @@
     margin-left: 80px;
     margin-right: 10px;
 }
-
+.second{
+    display: flex;
+    flex-direction: row;
+}
 .About{
     width: 47px;
     height: 20px;
     margin-top: 35px;
     margin-left: 669px; 
+    text-decoration:none;
+	color:black;
 }
 .Services{
     width: 47px;
     height: 20px;
     margin-top: 35px;
     margin-left: 40px;
+    text-decoration:none;
+	color:black;
 }
 .projects{
     width: 47px;
     height: 20px;
     margin-top: 35px;
     margin-left: 60px;
+    text-decoration:none;
+	color:black;
 }
 .get-in-touch{
     width: 150px;
@@ -38,4 +51,9 @@
     border-radius: 10px;
     background-color: rgb(54, 54, 235);
     color: white;
+}
+.brand-img{
+    width: 350px;
+    height: 100px;
+    margin-left: ;
 }
