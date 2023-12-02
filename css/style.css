@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 .nawbar{
     display: flex;
     flex-direction: row;
@@ -22,7 +25,7 @@
     width: 47px;
     height: 20px;
     margin-top: 35px;
-    margin-left: 669px; 
+    margin-left: 640px; 
     text-decoration:none;
 	color:black;
 }
@@ -53,7 +56,47 @@
     color: white;
 }
 .brand-img{
-    width: 350px;
-    height: 100px;
-    margin-left: ;
+    width: 480px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 150px;
 }
+#text{
+    width: 500px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.building{
+    display: flex;
+    flex-direction: column;
+}
+.adver-t{
+    width: 450px;
+    height: 280px;
+    margin-top: 150px;
+    margin-left: 370px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.small-ad{
+    width: 150px;
+    height: 82px;
+    margin-left: 730px;
+    margin-top: -45px;
+}
+.more{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: rgb(54, 54, 235);
+    color: white;
+}
+
+
+
