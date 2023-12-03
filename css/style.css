@@ -1,12 +1,16 @@
 *{
     font-family: sans-serif;
 }
+
+/* Navbar */
 .nawbar{
     display: flex;
     flex-direction: row;
     font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
 }
-.first{
+.navbar-logo{
     display: flex;
     flex-direction: row;
 }
@@ -17,26 +21,20 @@
     margin-left: 80px;
     margin-right: 10px;
 }
-.second{
+.navbar-links{
     display: flex;
     flex-direction: row;
+    column-gap: 30px;
 }
-.About{
-    width: 47px;
-    height: 20px;
-    margin-top: 35px;
-    margin-left: 640px; 
-    text-decoration:none;
-	color:black;
+.navbar-links .navbar-link {
+    list-style: none;
 }
-.Services{
-    width: 47px;
-    height: 20px;
-    margin-top: 35px;
-    margin-left: 40px;
-    text-decoration:none;
-	color:black;
+.navbar-links .navbar-link a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
 }
+
 .projects{
     width: 47px;
     height: 20px;
