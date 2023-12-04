@@ -70,28 +70,19 @@
 .building{
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
-.adver-t{
-    width: 450px;
-    height: 280px;
-    margin-top: 150px;
-    margin-left: 370px;
-}
-main{
+
+.main{
     display: flex;
     flex-direction: row;
 }
-.small-ad{
-    width: 150px;
-    height: 82px;
-    margin-left: 730px;
-    margin-top: -45px;
-}
+
 .more{
     width: 150px;
     height: 50px;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 160px;
     border: 1px solid blue;
     border-radius: 10px;
     background-color: rgb(54, 54, 235);
