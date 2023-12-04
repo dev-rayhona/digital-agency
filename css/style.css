@@ -59,11 +59,13 @@
     margin-left: 80px;
     margin-top: 150px;
 }
-#text{
-    width: 500px;
-    height: 100px;
-    margin-left: 80px;
-    margin-top: 25px;
+.text{
+    color: rgb(106, 61, 197);
+}
+#building-h1{
+    color: rgb(35, 48, 68);
+    font-size: 4.0em;
+    padding-left: 160px;
 }
 .building{
     display: flex;
