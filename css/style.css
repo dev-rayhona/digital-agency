@@ -70,7 +70,7 @@ span.purple-text {
 .partners{
     margin-top: 150px;
 }
-.partners-title{
+.partners .partners-title h5{
     text-align: center;
 }
 .partners-logos{
@@ -78,6 +78,6 @@ span.purple-text {
     flex-direction: row;
     justify-content:center;
 }
-.partners-logos .partner{
+.partners .partners-logos .partner{
     margin-left: 50px;
 }
