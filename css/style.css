@@ -81,3 +81,33 @@ span.purple-text {
 .partners .partners-logos .partner{
     margin-left: 50px;
 }
+
+.explore-service{
+    margin-top: 200px;
+}
+.explore-service .service-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.explore-service  .our-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.explore-service .button{
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.explore-service .button .explore-button{
+    background-color: rgb(54, 54, 235);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    
+}
+.explore-service .service-title h3{
+    color: rgb(88, 100, 110);
+}
