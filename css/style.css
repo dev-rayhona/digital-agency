@@ -67,3 +67,17 @@ span.purple-text {
 .main .main-left-part p {
     font-size: 20px;
 }
+.partners{
+    margin-top: 150px;
+}
+.partners-title{
+    text-align: center;
+}
+.partners-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.partners-logos .partner{
+    margin-left: 50px;
+}
