@@ -111,3 +111,20 @@ span.purple-text {
 .explore-service .service-title h3{
     color: rgb(88, 100, 110);
 }
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.comment-img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.comment-text{
+    color: #47536B;
+    font-family: Plus Jakarta Sans;
+}
