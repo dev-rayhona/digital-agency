@@ -106,7 +106,6 @@ span.purple-text {
 .explore-service .service-title h3{
     color: rgb(88, 100, 110);
 }
-
 .comment{
     display: flex;
     flex-direction: row;
@@ -178,4 +177,31 @@ span.purple-text {
     background: #6153CD;
     color: white;
     margin-left: 700px;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.footer .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer .information .about-digital-agency{
+    padding-left: -30px;
+}
+.footer .information .company{
+    margin-left: -140px;
+}
+.footer .information .help{
+    margin-left: 20px;
+}
+.footer .information .resources{
+    margin-left: -120px;
 }
